@@ -1,0 +1,70 @@
+/* Form container styling */
+.form-container {
+    background: linear-gradient(135deg, #2a2a48, #434371);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #ff6f61;
+    text-shadow: 2px 2px 3px rgba(255, 111, 97, 0.5);
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #1e1e2f;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff6f61;
+}
+
+/* Submit button styling */
+.submit-btn {
+    background: linear-gradient(145deg, #ff7b64, #ff4e50);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.submit-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
